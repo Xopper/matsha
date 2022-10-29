@@ -1,0 +1,28 @@
+GET http://localhost:5000/
+
+
+### Add `Expense` 
+POST http://localhost:5000/authLogin/validate/register
+Content-Type: application/json
+
+{
+	"email": "317e150f1b@boxomail.live",
+	"username": "hasaliismaa",
+	"lastName": "iantru",
+	"firstName": "hamza",
+    "password" : "Hamza200-0"
+}
+
+POST http://localhost:5000/stepForm/stepFormValidator 
+Content-Type: application/json
+{
+	 		gender : "home",
+            interests : "Female",
+            bio: "adsnjksadnkjdsanjdasd",
+            birthday : "12-02-2000",
+            profilePic1 : "asdasddsa",
+            tags : ["Dassdadas", "adssaddas"],
+            latitude : 32.8816579,
+            longitude : -6.8979015,
+            country : "morocco",
+}
